@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SayHi {
+public struct SayHi {
     
     public init() {}
     
