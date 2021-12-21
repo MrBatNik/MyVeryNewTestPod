@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06BB2DE0CD8C2B729BB8CEC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		06BB2DE0CD8C2B729BB8CEC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B3E9F1B7B991F3255C081AE /* Pods_MyVeryNewTestPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVeryNewTestPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MyVeryNewTestPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVeryNewTestPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* MyVeryNewTestPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVeryNewTestPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78C987323645A4F596CCDCAB /* MyVeryNewTestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyVeryNewTestPod.podspec; path = ../MyVeryNewTestPod.podspec; sourceTree = "<group>"; };
+		78C987323645A4F596CCDCAB /* MyVeryNewTestPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyVeryNewTestPod.podspec; path = ../MyVeryNewTestPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97A647055AFC0C62F19EBE07 /* Pods-MyVeryNewTestPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVeryNewTestPod_Example.debug.xcconfig"; path = "Target Support Files/Pods-MyVeryNewTestPod_Example/Pods-MyVeryNewTestPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A68318EECDC66D79FDA868EE /* Pods-MyVeryNewTestPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVeryNewTestPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MyVeryNewTestPod_Tests/Pods-MyVeryNewTestPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B2EEC9F92D3E77940C479E51 /* Pods_MyVeryNewTestPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVeryNewTestPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF85B6FAC9097644EF9F010 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EEF85B6FAC9097644EF9F010 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FBC04AE0795271E70F57D925 /* Pods-MyVeryNewTestPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVeryNewTestPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyVeryNewTestPod_Tests/Pods-MyVeryNewTestPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC2B6151C436DD6AC3D0C1AE /* Pods-MyVeryNewTestPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVeryNewTestPod_Example.release.xcconfig"; path = "Target Support Files/Pods-MyVeryNewTestPod_Example/Pods-MyVeryNewTestPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				A68318EECDC66D79FDA868EE /* Pods-MyVeryNewTestPod_Tests.debug.xcconfig */,
 				FBC04AE0795271E70F57D925 /* Pods-MyVeryNewTestPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
